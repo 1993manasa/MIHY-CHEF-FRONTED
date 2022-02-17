@@ -1,0 +1,105 @@
+.Page {
+  text-align: center;
+}
+
+.Page-header {
+  background-color: #09294E;
+  height: 109vh;
+  width: 98%;
+  margin-left: 12px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+
+.note {
+color:#ffff;
+font-size: 13px;
+margin-right: 180px;
+margin-top: 2px;
+
+}
+
+.box1 {
+color:#FFFFFF;
+margin-right: 130px;
+}
+
+.box3 {
+color:#FFFFFF;
+font-size: 74%;
+margin-right: 170px;
+margin-top: -6px;
+}
+
+.Page2 {
+  border: 2px outset #33C9DC;
+  width: 98%;
+  height: 94vh;
+  border-color: #33C9DC;
+  border-radius: 3px;
+  margin-right: 2px;
+
+  
+  margin-bottom: 60px;
+  box-shadow: 4px 4px 10px #33C9DC inset;
+}
+
+
+
+
+.flex-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+
+.flex-head > div {
+  background-color: #09294E;
+  margin-left: 7%;
+  border: 2px outset #33C9DC;
+    width: 85%;
+    height: 20vh;
+    border-color: #33C9DC;
+    border-radius: 2px;
+    margin-top: 5%;
+    
+  
+    
+    box-shadow: 4px 4px 10px #33C9DC inset;
+}
+
+
+.book5 {
+  border: 2px outset #33C9DC;
+  width: 99%;
+  height: 10vh;
+  border-color: #33C9DC;
+
+  box-shadow: 4px 4px 10px #33C9DC inset;
+  
+  margin-top: 15%;
+  border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  
+}
+.butn {
+  width: 50%;
+  background-color: #33C9DC;
+  border: 1px outset #33C9DC;
+  height: 39px;
+  color: #ffff;
+  margin-top: 40px;
+  
+}
+
+
+.vl {
+  border-left: 2px solid gray;
+  height: 20px;
+  margin-left: 155px;
+  margin-bottom: -30px;
+}
