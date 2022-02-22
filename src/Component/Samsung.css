@@ -6,11 +6,12 @@
   
 .Samsung-header {
     background-color: #09294E;
-    height: 108vh;
-    width: 95%;
+    height: 129vh;
+    width: 98%;
     margin-left: 10px;
     margin-top: 10px;
     border-radius: 3px;
+    position: fixed;
   }
   
     
@@ -18,8 +19,8 @@
 
     .sam2 {
       border: 2px outset #33C9DC;
-      width: 99%;
-      min-height: 90vh;
+      width: 97%;
+      min-height: 95vh;
       border-color: #33C9DC;
       border-radius: 3px;
       margin-left: 3px;
@@ -104,7 +105,7 @@
   margin-top: -30px;
 } */
 
-.sung5 {
+/* .sung5 {
   border: 2px outset #33C9DC;
   width: 99%;
   height: 10vh;
@@ -119,7 +120,10 @@
     border-top-right-radius: 30px;
 
   
-}
+} */
+
+
+
 
 
 .column {
@@ -145,5 +149,6 @@ margin-left: 5%;
   border: 1px outset #FFFFFF;
   width: 99%;
   height: 20px;
-  margin-top: 5%;
+  margin-top: 260px;
 }
+

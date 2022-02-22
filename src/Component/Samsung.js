@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Paper } from "@mui/material";
 
 import './Samsung.css';
 import { Icon } from '@iconify/react';
@@ -12,6 +12,7 @@ import Img2 from './img2.webp';
 import Img3 from './img3.jpg';
 import Img4 from './img4.png';
 // import { Avatar } from '@mui/material';
+
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Grid from "@mui/material/Grid";
@@ -19,9 +20,10 @@ import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
 import MenuIcon from '@mui/icons-material/Menu';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import Rating from '@mui/material/Rating';
-import { fontSize } from '@mui/system';
-
-
+import { color, fontSize } from '@mui/system';
+import Box from '@mui/material/Box';
+import BottomNavigation from '@mui/material/BottomNavigation';
+import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 
 const Search = styled('div')(({ theme }) => ({
   position: 'relative',
@@ -174,10 +176,55 @@ function Samsung(IconlabelTabs) {
   <p>Non-veg</p>
   <p>chinese</p>
   </Grid>
+  
+  
 
 
 
- <div className='sung5'>
+
+  {/* <div class="navbar">
+<Grid container sx={{ color:"#33C9DC"}} style={{display:"flex",justifyContent:"space-around"}}>
+<a href="#home">
+Home</a>
+<HomeOutlinedIcon style={{fontSize:"350%"}}/>
+
+
+    <PersonOutlinedIcon style={{fontSize:"350%"}}/>
+    <ShoppingCartOutlinedIcon style={{fontSize:"350%"}}/>
+</Grid> */}
+    
+
+  
+  
+{/* 
+  <a href="#Profile">Profile</a>
+  <a href="#Going to have">Going to have</a>
+
+  
+</div> */}
+
+  {/* <Paper sx={{ position: 'fixed', bottom: 8, left: 20, right: 1,width: 385, }} elevation={0} >
+
+
+      <BottomNavigation
+
+        showLabels
+        value={value}
+        onChange={(event, newValue) => {
+          setValue(newValue);
+          
+        }}
+      >
+        <BottomNavigationAction label="Home" icon={<HomeOutlinedIcon style={{color:"#33C9DC",fontSize:"300%"}} />} />
+        <BottomNavigationAction label="Person" icon={<PersonOutlinedIcon  style={{color:"#33C9DC",fontSize:"300%"}} />} />
+        <BottomNavigationAction label="going to have" icon={<ShoppingCartOutlinedIcon  style={{color:"#33C9DC",fontSize:"300%"}} />} />
+      </BottomNavigation>
+      
+    </Paper>
+  */}
+
+
+ {/* <div className='sung5'>
    
           <Tabs value={value} onChange={handleChange} aria-label="icon tabs example">
       <Tab icon={<Icon icon="feather:home" color="#33c9dc" width="40" height="40" /> } label="Home"/>
@@ -186,7 +233,7 @@ function Samsung(IconlabelTabs) {
       <Tab icon={<Icon icon="eva:shopping-cart-outline" color="#33c9dc" width="40" height="40"/>}  label="going to have"/>
     </Tabs>
     
-          </div>
+          </div> */}
           <div className='head6'></div>
         </div>
       </header>

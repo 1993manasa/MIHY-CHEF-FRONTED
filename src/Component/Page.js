@@ -65,6 +65,8 @@
 // export default Page;
 import React from 'react';
 import './Page.css';
+import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import KeyboardBackspaceIcon from '@mui/icons-material/KeyboardBackspace';
 import { Grid } from '@mui/material';
 import { Typography } from '@mui/material';
@@ -140,15 +142,7 @@ function Page(IconlabelTabs) {
           
          
           <Button class="butn">Confirm</Button>
-          <div className='book5'>
-          <Tabs value={value} onChange={handleChange} aria-label="icon tabs example">
-      <Tab icon={<Icon icon="feather:home" color="#33c9dc" width="40" height="40" /> } label="Home"/>
-      
-      <Tab icon={<Icon icon="bi:person" color="#33c9dc" width="40" height="40" />} label="Profile"/>
-      <Tab icon={<Icon icon="eva:shopping-cart-outline" color="#33c9dc" width="40" height="40" />}  label="going to have"/>
-    </Tabs>
-          
-          </div>
+        
           <div className='head6'></div>
 
         </div>

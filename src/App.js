@@ -10,7 +10,9 @@ import Confirm from './Component/Confirm';
 import Done from './Component/Done';
 import User from './Component/User';
 import Order from './Component/Order';
-
+import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
+import PersonOutlinedIcon from '@mui/icons-material/PersonOutlined';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 
 
@@ -44,6 +46,21 @@ function App() {
       
       </Routes>
     </BrowserRouter>
+
+    <nav class="nav">
+    <a href="#" class="nav--link">
+    <HomeOutlinedIcon style={{fontSize:"50px"}}/>
+      <span class="nav--text">Home</span>
+    </a>
+    <a href="#" class="nav--link">
+    <PersonOutlinedIcon style={{fontSize:"50px"}}/>
+      <span class="nav--text">Profile</span>
+    </a>
+    <a href="#" class="nav--link">
+    <ShoppingCartOutlinedIcon style={{fontSize:"50px"}}/>
+      <span class="nav--text">Going to have</span>
+    </a>
+  </nav>
     </div>
   
    

@@ -1,8 +1,13 @@
 import React from "react";
 import './Profile.css';
+import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
+import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import Avatar from '@mui/material/Avatar';
 import Grid from "@mui/material/Grid";
-import { Typography } from "@mui/material";
+import { Paper } from "@mui/material";
+import { BottomNavigation } from "@mui/material";
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
+import { BottomNavigationAction, Typography } from "@mui/material";
 import female from './female.svg';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
@@ -21,7 +26,7 @@ import { Fab } from "@mui/material";
 
   return (
     <div className="App">
-      <header className="App-header">
+      <header className="Profile-header">
       <br></br>
       <Grid container sx={{ color: 'white'}} style={{  marginBottom: '1rem',marginLeft:'2rem'}}>
     
@@ -52,7 +57,7 @@ import { Fab } from "@mui/material";
           
     
     
-    <div className='head2'>
+    <div className='profile2'>
       <Grid container style={{marginTop:"1rem",display:"flex",justifyContent:"space-around"}}>
       <Fab size="small">
     
@@ -71,22 +76,27 @@ import { Fab } from "@mui/material";
    </Grid>
     <br/>
     <br/>
-    <div  class='flex-container'>
+    <div  class='flex-profile'>
     <div ></div>
     <div></div>
     <div></div>
     </div>
-    <div  class='flex-container'>
+    <div  class='flex-profile'>
     <div ></div>
     <div></div>
     <div></div>
     </div>
-    <div  class='flex-container'>
+    <div  class='flex-profile'>
     <div ></div>
     <div></div>
     <div></div>
     </div>
-    <div className='head5'>
+    <div  class='flex-profile'>
+    <div ></div>
+    <div></div>
+    <div></div>
+    </div>
+    {/* <div className='head5'>
           <Tabs value={value} onChange={handleChange} aria-label="icon tabs example">
       <Tab icon={<Icon icon="feather:home" color="#33c9dc" width="40" height="40" /> } label="Home"/>
       
@@ -94,7 +104,8 @@ import { Fab } from "@mui/material";
       <Tab icon={<Icon icon="eva:shopping-cart-outline" color="#33c9dc" width="40" height="40" />}  label="going to have"/>
     </Tabs>
           
-          </div>
+          </div> */}
+          
    </div>
         
       </header>
