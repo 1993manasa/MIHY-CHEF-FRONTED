@@ -5,14 +5,7 @@
   
   
   
-    .Confirm-header {
-      background-color: #09294E;
-      height: 85vh;
-      width: 99%;
-      margin-left: 10px;
-      margin-top: 10px;
-  }
-  
+   
   
   .note {
     color:#ffff;
@@ -37,7 +30,7 @@
   .confirm {
     border: 2px outset #33C9DC;
     width: 99%;
-    min-height: 70vh;
+    min-height: 85vh;
     border-color: #33C9DC;
     border-radius: 15px;
     margin-right: 160px;

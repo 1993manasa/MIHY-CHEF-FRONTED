@@ -4,26 +4,18 @@
 
   
   
-.Samsung-header {
-    background-color: #09294E;
-    height: 129vh;
-    width: 98%;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 3px;
-    position: fixed;
-  }
+
   
     
    
 
     .sam2 {
       border: 2px outset #33C9DC;
-      width: 97%;
+      width: 98%;
       min-height: 95vh;
       border-color: #33C9DC;
       border-radius: 3px;
-      margin-left: 3px;
+      margin-left: 1px;
       
       
       margin-bottom: 70px;
@@ -144,11 +136,5 @@ margin-left: 5%;
 
 
 
-.head6 {
-  background-color: #FFFFFF;
-  border: 1px outset #FFFFFF;
-  width: 99%;
-  height: 20px;
-  margin-top: 260px;
-}
+
 

@@ -22,7 +22,7 @@ function Done(IconlabelTabs) {
   
   return (
     <div className="App">
-      <header className="Done-header">
+      
       
     
         <br></br>
@@ -42,21 +42,14 @@ function Done(IconlabelTabs) {
         <Icon icon="ic:baseline-cloud-done" color="#33c9dc" width="140" height="140" margin="60"/>
         <h3 style={{color:"#33C9DC"}}>Booking is Done</h3>
         <br/>
-        <div className='Done5'>
-          <Tabs value={value} onChange={handleChange} aria-label="icon tabs example">
-      <Tab icon={<Icon icon="feather:home" color="#33c9dc" width="40" height="40" /> } label="Home"/>
-      
-      <Tab icon={<Icon icon="bi:person" color="#33c9dc" width="40" height="40" />} label="Profile"/>
-      <Tab icon={<Icon icon="eva:shopping-cart-outline" color="#33c9dc" width="40" height="40" />}  label="going to have"/>
-    </Tabs>
-    
+        
+          
+          
           
           </div>
-          <div className='head6'></div>
-          </div>
         
-        
-      </header>
+          
+      
     </div>
   );
 }

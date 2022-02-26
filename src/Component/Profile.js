@@ -26,7 +26,7 @@ import { Fab } from "@mui/material";
 
   return (
     <div className="App">
-      <header className="Profile-header">
+      
       <br></br>
       <Grid container sx={{ color: 'white'}} style={{  marginBottom: '1rem',marginLeft:'2rem'}}>
     
@@ -108,7 +108,7 @@ import { Fab } from "@mui/material";
           
    </div>
         
-      </header>
+      
     </div>
   );
 }

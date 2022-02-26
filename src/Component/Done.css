@@ -2,13 +2,7 @@
     text-align: center;
   }
   
-  .Done-header {
-    background-color: #09294E;
-    height: 85vh;
-    width: 99%;
-    margin-left: 10px;
-    margin-top: 10px;
-  }
+  
   
   
   .note {
@@ -34,7 +28,7 @@
   .Done2 {
     border: 2px outset #33C9DC;
     width: 99%;
-    min-height: 70vh;
+    min-height: 85vh;
     border-color: #33C9DC;
     border-radius: 3px;
     margin-right: 40px;

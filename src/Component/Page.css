@@ -2,14 +2,7 @@
   text-align: center;
 }
 
-.Page-header {
-  background-color: #09294E;
-  height: 109vh;
-  width: 98%;
-  margin-left: 12px;
-  margin-top: 10px;
-  border-radius: 3px;
-}
+
 
 
 .note {
@@ -71,7 +64,7 @@ margin-top: -6px;
 }
 
 
-.book5 {
+/* .book5 {
   border: 2px outset #33C9DC;
   width: 99%;
   height: 10vh;
@@ -85,7 +78,7 @@ margin-top: -6px;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
   
-}
+} */
 .butn {
   width: 50%;
   background-color: #33C9DC;

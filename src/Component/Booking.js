@@ -21,7 +21,6 @@ function Booking(IconlabelTabs) {
   };
   return (
     <div className="Booking">
-      <header className="Booking-header">
         <br></br>
         <Grid container sx={{ color: 'white'}} style={{  marginBottom: '1rem',marginLeft:'2rem'}}>
     
@@ -74,20 +73,14 @@ function Booking(IconlabelTabs) {
           
          
           <Button class="butn">Confirm</Button>
-          <div className='book5'>
-          <Tabs value={value} onChange={handleChange} aria-label="icon tabs example">
-      <Tab icon={<Icon icon="feather:home" color="#33c9dc" width="40" height="40" /> } label="Home"/>
-      
-      <Tab icon={<Icon icon="bi:person" color="#33c9dc" width="40" height="40" />} label="Profile"/>
-      <Tab icon={<Icon icon="eva:shopping-cart-outline" color="#33c9dc" width="40" height="40" />}  label="going to have"/>
-    </Tabs>
+          
           
           </div>
           <div className='head6'></div>
 
         </div>
-      </header>
-    </div>
+      
+    
   );
 }
 

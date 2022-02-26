@@ -1,5 +1,5 @@
 import React from 'react';
-import { Paper } from "@mui/material";
+import { Button, Paper } from "@mui/material";
 
 import './Samsung.css';
 import { Icon } from '@iconify/react';
@@ -56,13 +56,13 @@ const SearchIconWrapper = styled('div')(({ theme }) => ({
 const StyledInputBase = styled(InputBase)(({ theme }) => ({
   color: 'inherit',
   '& .MuiInputBase-input': {
-    padding: theme.spacing(2, 2, 2, 0),
+    padding: theme.spacing(1, 1, 1, 1),
     // vertical padding + font size from searchIcon
     paddingLeft: `calc(1em + ${theme.spacing(0)})`,
     transition: theme.transitions.create('width'),
-    width: '150px',
+    width: '160px',
     [theme.breakpoints.up('md')]: {
-      width: '10ch',
+      width: '25ch',
     },
   },
 }));
@@ -78,12 +78,11 @@ function Samsung(IconlabelTabs) {
 
   return (
     <div className="Samsung">
-      <header className="Samsung-header">
      <br></br>
      
-     <Grid container sx={{ color: 'white'}} style={{  marginBottom: '1rem',marginLeft:'2rem'}}>
+     <Grid container sx={{ color: 'white'}} style={{  marginBottom: '1rem',marginLeft:'0rem'}}>
     
-     <KeyboardBackspaceIcon/>
+     <Button><KeyboardBackspaceIcon style={{color:"white",marginRight:"0rem"}}/></Button>
        
       <Typography>Home Page</Typography>
       <Grid item xs={1}>
@@ -234,9 +233,8 @@ Home</a>
     </Tabs>
     
           </div> */}
-          <div className='head6'></div>
         </div>
-      </header>
+  
     </div>
   );
 }

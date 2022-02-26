@@ -19,7 +19,7 @@ function User(IconlabelTabs) {
   };
   return (
     <div className="App">
-      <header className="User-header">
+      
       <br></br>
       <Grid container sx={{ color: 'white'}} style={{  marginBottom: '1rem',marginLeft:'2rem'}}>
     
@@ -82,7 +82,7 @@ function User(IconlabelTabs) {
           <div className='head6'></div>
 
 </div>
-      </header>
+    
     </div>
   );
 }

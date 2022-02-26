@@ -87,7 +87,7 @@ function Page(IconlabelTabs) {
   };
   return (
     <div className="Page">
-      <header className="Page-header">
+      
         <br></br>
         <Grid container sx={{ color: 'white'}} style={{  marginBottom: '1rem',marginLeft:'2rem'}}>
     
@@ -146,7 +146,7 @@ function Page(IconlabelTabs) {
           <div className='head6'></div>
 
         </div>
-      </header>
+      
     </div>
   );
 }

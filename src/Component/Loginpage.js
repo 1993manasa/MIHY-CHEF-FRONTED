@@ -21,7 +21,7 @@ function Loginpage() {
     
 
     <div className="Login">
-      <header className="Login-header">
+  
         <br></br>
       <Grid container sx={{ color: 'white'}} style={{  marginBottom: '1rem',marginLeft:'2rem'}}>
     
@@ -29,10 +29,10 @@ function Loginpage() {
      
         <Typography>Sign in</Typography>
         </Grid>
-        <Grid container style={{ marginLeft:'3rem'}}>
+        <Grid container sx={{color:"#ffff"}} style={{ marginLeft:'3rem'}}>
         <h2> Welcome back,</h2>
         </Grid>
-        <Grid container style={{ marginLeft:'3rem',marginTop:'-1rem'}}>
+        <Grid container sx={{color:"#ffff"}}  style={{ marginLeft:'3rem',marginTop:'-1rem'}}>
         <p>Sign in to continue</p>
         </Grid>
         <div className="had">
@@ -146,22 +146,25 @@ function Loginpage() {
         <p style={{color: '#33C9DC',marginLeft: '13rem',   fontSize: '74%'}}>Forgot Password?</p>
     
  
-        <p style={{ marginRight: '12rem', fontsize: "74%"}}> Remember me</p>
+        <p style={{color:"#ffff", marginRight: '12rem', fontsize: "74%"}}> Remember me</p>
    
         <br></br>
         <Button class="button">Login</Button>
         </div>
         </Box>
-        <br></br>
-        <p class="line1">or</p>
+        
+       
         {/* <hr style={{ width: '25%',marginLeft: '4rem', marginTop: '3rem',
     marginBottom: '8px'
     }}></hr>
    
     
         <hr class="line2"></hr> */}
+         <p style={{color:"#ffff"}}>or</p>
         <Grid container sx={{ color:"white"}} style={{marginTop:"2rem",marginRight:"2rem"}}>
+         
          <hr style={{width:"25%",marginLeft:"4rem"}}></hr>
+         
          <hr style={{width:"25%",marginRight:"4rem"}}></hr>
         </Grid>
          <Grid container sx={{color:"#33C9DC"}} style={{marginTop:"2rem",display:"flex",justifyContent:"space-around"}}>
@@ -170,7 +173,7 @@ function Loginpage() {
         </Grid>
         <p style={{color:"gray",alignItems:"center",marginTop:"8rem"}}>Don't have an account? <span style={{color:"#33C9DC",marginLeft:"1rem"}}> Sign up</span></p>
         </div>
-      </header>
+      
       
 </div>
   

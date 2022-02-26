@@ -23,6 +23,8 @@ function App() {
     
     <div>
     
+    <header className="header">
+
     <BrowserRouter>
       <Routes>
         
@@ -61,6 +63,9 @@ function App() {
       <span class="nav--text">Going to have</span>
     </a>
   </nav>
+  <div className='head6'></div>
+
+  </header>
     </div>
   
    
