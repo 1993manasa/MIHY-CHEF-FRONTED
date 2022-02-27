@@ -126,11 +126,35 @@
 }
 
 .column img {
-  margin-top: 9%;
-border-radius: 20px;
+  margin-top: 1%;
+border-radius: 10px;
+box-shadow: 50px 50px 50px #33C9DC inset;
 margin-right: 4%;
 margin-left: 5%;
 }
+
+
+.flex-cards{
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-cards >div {
+  border: 1px outset #ffff;
+      width: 27%;
+      height: 140px;
+      margin-left: 20px;
+      border-radius: 1px;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      border-top-left-radius: 20px;
+
+      margin-top: 15px ;
+      
+      background-color: #ffff;
+
+}
+
 
 
 
